@@ -1,0 +1,275 @@
+
+header{
+	padding: 30px 0px;
+}
+
+.logo img{
+	display: block;
+    margin: 0px auto;
+    padding-left: 26px;
+    width: 80%;
+    padding-top: 10px;
+}
+
+
+.menu ul{
+ list-style: none;
+ padding-top: 24px;
+
+
+
+}
+
+.menu ul li{
+    display: inline;
+    padding-right: 42px;
+    
+	}
+.menu ul li a{
+	text-decoration: none;
+	color: #005e7e;
+     font-size: 16px;
+	
+}
+.divider{
+	border-bottom: 5px solid silver;
+	display: block;
+}
+
+
+.tittle{
+	background: #ee4a3f;
+	padding: 50px 0px;
+}
+
+
+.tittle .tittle-one img{
+width: 100%;
+padding-bottom: 20px;
+}	
+
+.tittle .tittle-one h2{
+	color: white;
+	padding-bottom: 20px;
+
+
+}
+
+.tittle .tittle-one p{
+	color: white;
+	font-size: 15px;
+	text-align: justify;
+	    padding-bottom: 30px;
+
+}
+
+.tittle .tittle-two .img1{
+margin: 0px auto;
+display: block;
+position: relative;
+}
+
+.tittle-two .img2{
+    position: absolute;
+    top: 0;
+    left: 190px;
+}
+
+.form-main .form1{
+
+	    width: 90%;
+    background: #ff6258;
+    border: none;
+    margin-bottom: 15px;
+    padding: 10px 10px;
+}
+
+
+.form-main .form2{
+	    width: 90%;
+    background: #ff6258;
+    border: none;
+    margin-bottom: 15px;
+    padding: 10px 10px;
+}
+
+.form-main label{
+	color: white;
+}
+
+.form-main .formT .sub{
+	color: white;
+
+}
+.form-main .sbmt{
+	font-family: 'Lobster', cursive;
+    font-size: 30px;
+    padding: 5px 27px;
+    border-radius: 11px;
+    border: none;
+    background: transparent;
+    color: #fff;
+    letter-spacing: 1px;
+    margin-top: 75px;
+    cursor: pointer;
+    transition: 0.3s ease-out;
+
+}
+
+.form-main .sbmt:hover{
+	background: rgb(0,0,0,0.5);
+}
+
+.foot{
+	padding: 20px 0px;
+	background:#ef4035;
+}
+
+.foot p{
+	text-align: center;
+	color: white;
+}
+
+
+/*media query*/
+
+
+@media (min-width: 320px) and (max-width: 500px){
+
+header {
+   padding: 0px;
+   padding-top: 15px;
+
+}
+.logo img {
+    width: 85%;
+    padding-left: 0px;
+}
+.menu ul {
+    padding-top: 10px;
+}
+
+.menu ul li {
+padding-right: 0px;
+
+}
+
+.menu ul li a{
+    font-size: 15px;
+}
+.tittle {
+    padding: 15px 0px;
+}
+.tittle .tittle-one h2 {
+    padding-bottom: 15px;
+    font-size: 25px;
+}
+
+.tittle .tittle-one p {
+    padding-bottom: 15px;
+    font-size: 14px;
+}
+
+.tittle .tittle-two .img1 {
+    width: 60%;
+    left: -25px;
+    position: relative;
+}
+.tittle-two .img2 {
+    width: 54%;
+    left: 105px;
+}
+
+.form-main label {
+    font-size: 14px;
+}
+.formT .sub {
+    color: white;
+    margin-top: 25px;
+}
+
+.form-main .form1 {
+    
+    padding: 4px 10px;
+    display: block;
+    margin: 0px auto;
+}
+
+.form-main .form2 {
+    
+
+    padding: 4px 10px;
+    display: block;
+    margin: 0px auto;
+}
+
+.form-main .sbmt{
+	    display: block;
+    margin: 10px auto;
+}
+
+.foot p {
+
+    font-size: 12px;
+}
+
+}
+
+
+@media (min-width: 500.01px) and (max-width: 768px){
+
+	header {
+    padding: 20px 0px;
+}
+
+.logo img {
+    width: 68%;
+    margin: 0px auto;
+    display: block;
+    padding-top: 12px;
+}
+.menu ul li {
+    padding-right: 11px;
+}
+.tittle .tittle-one h2 {
+    padding-bottom: 18px;
+    font-size: 33px;
+}
+.tittle .tittle-two .img1 {
+    width: 85%;
+    top: 39px;
+}
+
+.tittle-two .img2 {
+    top: 38px;
+    left: 73px;
+    width: 77%;
+}
+.foot p {
+    font-size: 14px;
+}
+	
+}
+
+@media (min-width: 768.01px) and (max-width: 1200px;){
+.logo img {
+	width: 67%;
+    padding-top: 7px;
+}
+.menu ul li {
+    padding-right: 35px;
+}
+.tittle {
+    padding: 20px 0px;
+}
+.tittle .tittle-one h2 {
+    font-size: 33px;
+}
+.tittle .tittle-one img {
+    width: 110%;
+}
+
+.tittle-two .img2 {
+    left: 133px;
+}
+}

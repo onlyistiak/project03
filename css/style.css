@@ -1,0 +1,312 @@
+/*header section start*/
+body{
+	font-family: 'Open Sans', sans-serif;
+}
+.head .container{
+    padding-top: 43px;
+    padding-bottom: 92px;
+}
+.overlay{
+	background: rgba(0,0,0,0.6);
+	background-size: cover;
+}
+.head{
+    
+    background: url(../img/banner.png);
+    background-size: cover;
+}
+
+.logo-main .logo {    display: block;
+    margin: 2px auto;
+    max-width: 87%;}
+
+.menuitems ul{
+	list-style: none;
+    padding-top: 16px;
+    font-size: 15px;
+}
+
+.menuitems ul a{
+    text-decoration: none;
+    color:#f6f9fa;
+}
+
+.menuitems ul li{
+	display: inline;
+padding-right: 42px;
+color: #fff;
+text-transform: uppercase;
+
+}
+
+
+
+.tittle h2 {
+    color: #f6f9fa;
+    font-size: 30px;
+    background: rgba(0,0,0,0.5);
+    text-align: center;
+    margin-top: 66px;
+    margin-bottom: 20px;
+    padding: 14px 0px;
+        border-radius: 3px;
+}
+.tittle p {
+    font-size: 15px;
+    color: #f6f9fa;
+    padding-top: 20px;
+    padding-bottom: 70px;
+}
+
+.tittle .underline{
+    border-bottom: 1px solid white;
+    width: 8%;
+    display: block;
+margin-bottom: 88px;
+}
+.tittle button{
+    border: 2px solid #f6f9fa;
+    color: #f6f9fa;
+    font-size: 20px;
+    padding: 5px 59px;
+    background: transparent;
+    outline: none;
+    transition: 0.2s ease-out;
+}
+
+.tittle button:hover {
+    background: #1902021c;
+
+
+}
+.tittle button a{
+    text-decoration: none;
+    color: #f6f9fa;
+    cursor: pointer;
+
+}
+
+
+ /*header end*/
+
+ /*A section Start*/
+.A{
+    background: #f6f6f6;
+    padding-top: 90px;
+    padding-bottom: 0px;
+}
+.A h2 {
+    font-size: 36px;
+    font-weight: bold;
+    color: #333333;}
+
+.A1 p {
+padding-top: 40px;
+    font-size: 15px;
+    color: #888888;
+}
+.A .underline2 {
+    border-bottom: 2px solid black;
+       width: 9%;
+    padding-top: 18px;
+    display: block;
+}
+
+
+.A2 .rectangles{
+    position: relative;
+    width: 103%;
+    top: 15px;
+    right: 68px;
+    height: 118%;
+}
+.A2 .Acars{
+    left: 190px;
+    position: absolute;
+    width: 51%;
+    top: 59px;
+}
+/* A section end*/
+
+/*B section Start*/
+.B{
+    background:#28282e;
+padding-top: 123px;
+padding-bottom: 85px;
+}
+
+.B /*.secB-tittle*/ h2{
+    color: white;
+       font-weight: bold;
+    font-size: 36px;
+
+}
+
+.B .underline{
+    border-bottom: 1px solid white;
+    width: 4%;
+    padding-top: 20px;
+    display: block
+}
+
+.B .secB-tittle p{
+color: white;
+font-size: 15px;
+padding-top: 45px;
+}
+.B .secB-tittle button{
+    background: transparent;
+    border: 1px solid #f6f6f6;
+    outline: none;
+    margin-top: 50px;
+    padding: 11px 16px;
+    transition: 0.2s ease-out;
+}
+.B .secB-tittle button:hover{
+    background: #ef4035e8;
+}
+.B .secB-tittle button a{
+    text-decoration: none;
+        color: white;
+}
+.imggg img{
+     width: 100%;
+    display: block;
+    margin: 25px auto;
+}
+
+/*B section End*/
+
+
+/*footer part start*/
+.foot{
+    padding: 25px 0px;
+    background: #ef4035;
+}
+
+.foot p{
+    text-align: center;
+    font-size: 14px;
+    color: #fff;
+}
+/*footer part end*/
+
+
+
+/*media query*/
+
+@media (min-width: 320px) and (max-width: 500px){
+.head {
+    background-position: bottom;
+}
+.head .container {
+    padding-top: 20px;
+    padding-bottom: 55px;
+}
+.logo-main .logo {
+    max-width: 100%;
+}
+.menuitems ul {
+    padding-top: 5px;
+    font-size: 15px;
+}
+
+.menuitems ul li {
+    padding-right: 5px;}
+
+   
+.tittle h2 {
+    font-size: 23px;
+    margin-top: 43px;
+    margin-bottom: 45px;
+    padding: 12px 0px;}
+
+.tittle p{
+        padding-top: 14px;
+        padding-bottom: 12px;
+}
+
+ .tittle .underline {
+   border-bottom: 2px solid white;
+    width: 20%;
+    margin: 50px auto;}
+
+.tittle button {
+    margin: 0px auto;
+    display: block;}
+
+
+.A {
+    padding-top: 25px;
+ 
+}
+
+.A h2 {
+    font-size: 23px;
+    text-align: center;}
+
+ .A .underline2 {
+    border-bottom: 3px solid black;
+    width: 20%;
+    margin: 0px auto;
+}
+.A1 p {
+    padding-top: 35px;
+    font-size: 14px;
+}
+.A2 .Acars {
+    left: 140px;
+    width: 55%;
+    top: 33px;
+}
+.A2 .rectangles {
+    width: 103%;
+    top: 26px;
+    right: 12px;
+    height: 167px;
+}
+
+.B {
+    padding-top: 40px;
+    padding-bottom: 10px;}
+
+    .B h2 {
+    font-size: 24px;
+    text-align: center;
+}
+
+.B .underline {
+    border-bottom: 2px solid white;
+    width: 18%;
+    padding-top: 20px;
+    display: block;
+    margin: 0px auto;
+}
+
+.B .secB-tittle p {
+    font-size: 14px;
+    padding-top: 30px;
+}
+
+.B .secB-tittle button {
+    margin-top: 30px;
+    padding: 5px 11px;
+    font-size: 11px;
+    margin: 0px auto;
+    margin-bottom: 3px;
+    display: block;
+}
+
+.imggg img {
+    margin: 30px auto;
+}
+
+.foot {
+    padding: 18px 0px;
+}
+.foot p {
+    font-size: 13px;
+}
+}
+
+
